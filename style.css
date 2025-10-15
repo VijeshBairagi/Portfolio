@@ -1,0 +1,54 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "sans-serif";
+}
+
+body {
+  background-color: #080808;
+  color: #fff;
+}
+#header {
+  width: 100%;
+  height: 100vh;
+  background: url(I\ M\ BATMAN.jpeg) center no-repeat fixed;
+  background-size: cover;
+}
+.container {
+  padding: 15px 10%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 180px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #f9f5f5;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+nav ul li a::after {
+  contain: "";
+  width: 100%;
+  height: 3px;
+  background-color: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+}
